@@ -1,0 +1,13 @@
+
+.chat-container{
+    flex-basis: 44%;
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    grid-template-areas:
+    "chat-header"
+    "chat-content"
+    "chat-footer";
+}
+.chat-header{
+    grid-area: chat-header;
+}

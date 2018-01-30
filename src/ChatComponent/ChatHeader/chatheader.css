@@ -1,0 +1,57 @@
+.chat-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* Status Icon */
+.user-status-icon{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #93cc93;
+    display: inline-block;
+}
+.chat-header-user-info{
+    width: 30%;
+    height: 100%;
+    text-align: start;
+}
+.chat-header-options{
+    width: 70%;
+    height: 100%;
+    line-height: 32px;
+    text-align: end;
+    padding-right: 10px;
+}
+.user-name{
+    padding-left: 7px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.chat-user-status{
+    display: flex;
+    flex-direction: row;
+    line-height: 10px;
+}
+.user-status:before{
+    content: "|";
+    padding-right: .4rem;
+    color: rgba(113,114,116,.5);
+    font-size: 9px;
+}
+.user-status-text{
+    font-size: 8px;
+    padding-left: 3px;
+}
+.chat-header button{
+    background: none;
+    border: none;
+    font-size: 10px;
+}
+.chat-header .ant-btn-icon-only{
+    padding-bottom: 11px;
+}
+.chat-header button:hover{
+    background: none;
+    border: none;
+}

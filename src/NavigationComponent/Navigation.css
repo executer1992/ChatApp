@@ -1,0 +1,125 @@
+/*Top side bell*/
+.navigation{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #4b367c;
+    height: 38px;
+}
+/*Avatar with name and surename letters*/
+.logo-container{
+    flex-basis: 5%;
+    height: 100%;
+    align-items: center;
+    background: #4b367c;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    border-radius: 50%;
+    color: red;
+    background: white;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.status-circle-user{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid #4b367c;
+    top: 68%;
+    position: absolute;
+    right: -3px;
+}
+/*Ant Menu navigation - ul*/
+.ant-menu-root{
+    flex-basis: 65%;
+    height: 100%;
+    display: flex;
+    background: #4b367c;
+    font-size: 12px;
+    border-bottom: #4b367c;
+    color: ghostwhite;
+    line-height: 2;
+      
+}
+/*Ant Menu navigation - li*/
+.ant-menu-root > li{
+    font-size: 9px;
+}
+/*Container for search part */
+.search-container{
+    flex-basis: 25%;
+}
+/*Styles for Icon with loop button */
+.ant-btn{
+    width: 26px;
+    height: 26px;
+    background: none;
+    border: none;
+}
+/*Styles for loop buttion after hover ,NEED TO BUILD!!!
+.search-text{
+    width: 130px;
+    height: 22px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 24px;
+    border: 0 none;
+    background: rgb(64, 151, 119);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+}
+.search-text:focus {
+    background: rgb(64, 151, 119);
+}
+input[type=text]:focus {
+    width: 220px;
+}
+
+.notification{
+    flex-basis: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+.notification .ant-badge-count{
+    min-width: 0px;
+}
+.ant-badge{
+    color: white;
+}
+.ant-scroll-number{
+    padding: 0;
+    width: 10px;
+    line-height: 10px;
+    left: 95%;
+    top: -6px;
+    height: 10px;
+    font-size: 9px;
+    font-weight: bold;
+}

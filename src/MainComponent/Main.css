@@ -1,0 +1,6 @@
+.main-container{
+    height: 401px;
+    background: beige;
+    display: flex;
+    flex-direction: row;
+}
